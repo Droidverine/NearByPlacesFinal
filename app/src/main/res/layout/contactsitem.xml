@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="12dp"
+    android:elevation="8dp"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp">
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/contactimg"
+            android:layout_width="82dp"
+            android:layout_height="82dp"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FF000000"/>
+
+
+        <LinearLayout
+            android:id="@+id/contactslinear"
+            android:layout_width="wrap_content"
+            android:layout_height="85dp"
+            android:layout_toRightOf="@+id/contactimg"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/contactname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shivraj Patil"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/contactrole"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Event Head"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/contactbtns"
+            android:layout_width="wrap_content"
+            android:layout_height="85dp"
+            android:layout_alignParentEnd="true"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:clickable="true"
+
+            android:padding="8dp">
+
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:id="@+id/callbtn"
+                android:layout_margin="8dp"
+                android:src="@drawable/phonebtn" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+</android.support.v7.widget.CardView>

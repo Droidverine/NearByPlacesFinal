@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_bg1"
+    android:padding="24dp"
+    android:weightSum="5"
+    tools:context="com.droidverine.nearbyplaces.Activities.DomainsActivity">
+<Button
+    android:textColor="@color/btntxt"
+    android:textStyle="bold"
+    android:layout_margin="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:background="@drawable/gradient_btn"
+    android:text="Hotels"
+    android:id="@+id/btnhotels"
+    android:textSize="32dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/btnbank"
+        android:layout_margin="8dp"
+        android:background="@drawable/gradient_btn"
+
+        android:text="Banks"
+        android:textSize="32dp"
+        android:textColor="@color/btntxt"
+        android:textStyle="bold"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Hospital"
+        android:id="@+id/btnhospital"
+        android:textSize="32dp"
+        android:layout_margin="8dp"
+        android:background="@drawable/gradient_btn"
+
+        android:textColor="@color/btntxt"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btngarages"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Garages"
+        android:layout_margin="8dp"
+        android:background="@drawable/gradient_btn"
+
+        android:textSize="32dp"
+        android:textColor="@color/btntxt"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/btnpetrol"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Petrol Pumps"
+        android:layout_margin="8dp"
+        android:background="@drawable/gradient_btn"
+
+        android:textSize="32dp"
+        android:textColor="@color/btntxt"
+        android:textStyle="bold"/>
+</LinearLayout>
